@@ -11,7 +11,8 @@ func main(){
 	// to assign multiple constants at once
 	const(
 		country = "india"
-		state = "odisha"
+		state = "odisha"   
+		// can be used for host,port and env variables as they are constant
 	)
 	fmt.Println(state,",",country)
 }
