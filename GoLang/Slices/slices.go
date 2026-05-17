@@ -14,7 +14,6 @@ func main(){
 	var nums []int // slice of integers
     fmt.Println(nums)  // empty and nil slice 
     fmt.Println(len(nums)) // length is 0 
-
 	
 	// 3rd parameter is capacity (optional)
 	var arr = make([]int,2) // make is used to create a slice with length 2
