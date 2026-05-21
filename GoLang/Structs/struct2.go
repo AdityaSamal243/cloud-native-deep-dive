@@ -46,7 +46,7 @@ func (O *Order1) getAmount() float32 {
 }
 
 
-func main(){
+func main1(){
       myOrder := Order1{
 		id : "1",
 		amount : 100,
