@@ -23,7 +23,7 @@ func main(){
 		fmt.Println("other")
 	}
 
-	// multiple condittion switch
+	// multiple condition switch
 
 	switch time.Now().Weekday(){
 	case time.Saturday, time.Sunday:
