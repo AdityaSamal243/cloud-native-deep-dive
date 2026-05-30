@@ -59,7 +59,7 @@ int main(){
         if(v[r]==0){
             count++;
         }
-        while(count>k){
+       if/while(count>k){
            if(v[l]==0){
             count --;
            }
@@ -67,6 +67,6 @@ int main(){
         }
         maxlen=max(maxlen,r-l+1);
         r++;
-     }
-
+    }
 }
+
