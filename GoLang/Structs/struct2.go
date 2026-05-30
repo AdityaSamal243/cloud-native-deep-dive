@@ -75,7 +75,7 @@ func main1(){
 	  fmt.Println("order1 :",myOrder1)
 
 
-	  //but what if struct instance is used only once in a program no need to do so much 
+	//but what if struct instance is used only once in a program no need to do so much 
       
 	language := struct{
 	  name string

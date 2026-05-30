@@ -17,6 +17,7 @@ func main(){
 	
 	// 3rd parameter is capacity (optional)
 	var arr = make([]int,2) // make is used to create a slice with length 2
+	// the above initiallizes an slice of length 2 and index 1 and 2 as 0.
     fmt.Println(arr)
 	fmt.Println(len(arr)) // length is 2
 	fmt.Println(cap(arr)) // capacity is 2
@@ -25,14 +26,14 @@ func main(){
 	// add elemnts
 	arr = append(arr,3) 
 	// append is used to add elements to a slice
-	fmt.Println(arr)
-	fmt.Println(len(arr))
+	fmt.Println(arr)     // 0,0,3
+	fmt.Println(len(arr))   //3                                         
 	fmt.Println(cap(arr)) 
 
 	// can add multiple elements at once
-	arr = append(arr,4,5,6)
-	fmt.Println(arr)
-	fmt.Println(len(arr))
+	arr = append(arr,4,5,6) 
+	fmt.Println(arr)   //0,0,3,4,5,6
+	fmt.Println(len(arr)) // 6
 	fmt.Println(cap(arr))
 
     // to initialize an empty slice 
@@ -42,11 +43,11 @@ func main(){
 
 	// to create a slice
 	slice := []int{}
-	fmt.Println(slice)
-    fmt.Println(len(slice))
-	slice = append(slice,1,2,3)
-	fmt.Println(slice)
-	fmt.Println(len(slice))
+	fmt.Println(slice) //[]
+    fmt.Println(len(slice)) //0
+	slice = append(slice,1,2,3) 
+	fmt.Println(slice) //1,2,3
+	fmt.Println(len(slice)) //3
 	fmt.Println(cap(slice))
 
 
@@ -61,9 +62,9 @@ func main(){
     //  copy function
     // if destination slice is smaller than source slice then only part of the source slice will be copied to destination slice
 	// if dest slice is 0 nothing will be copied
-	var nums1 = make([]int,0,5)
-	nums1 = append(nums1, 2)
-	var nums2 = make([]int,len(nums1))
+	var nums1 = make([]int,0,5) // []
+	nums1 = append(nums1, 2) // [2]
+	var nums2 = make([]int,len(nums1)) [0]
 
 	fmt.Println(nums1, nums2)
 
@@ -73,9 +74,9 @@ func main(){
 
 	// slice operator used for getting element or portion of element
 	slice1 := []int{1,2,3,4,5}
-	fmt.Println(slice1[0:5])
-	fmt.Println(slice1[:3])
-	fmt.Println(slice1[1:3])
+	fmt.Println(slice1[0:5]) //1,2,3,4,5
+	fmt.Println(slice1[:3]) //1,2,3
+	fmt.Println(slice1[1:3])//2,3
 	fmt.Println(slice1[1:])
 
 

@@ -6,7 +6,7 @@ import "time"
 func main(){
 	// switch statement is used to perform different actions based on many multiple conditions
 	// simple switch 
-	i :=7
+	i :=4
 
 	switch i {
 	case 1:

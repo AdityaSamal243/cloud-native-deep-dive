@@ -15,7 +15,7 @@ func main(){
 	m["aditan"]=2
 	fmt.Println(m)
 	fmt.Println(m["adi"], m["aditan"])
-	fmt.Println(len(m))
+	fmt.Println(len(m)) //2
 
 	//what if we access a key that does not exist
 	// key,value does not exist in map then it return 0.

@@ -13,7 +13,7 @@ func main(){
 //    to get element at index 0
    fmt.Println(nums[0]) 
    fmt.Println(nums[1])
-   fmt.Println(nums)
+   fmt.Println(nums) // to print entire nums array.
 
    fmt.Println(len(nums))
 

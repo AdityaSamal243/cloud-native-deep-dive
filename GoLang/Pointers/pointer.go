@@ -10,7 +10,7 @@ func changeNum(num int){
 }
 // passed by reference = address of variable is passed to function
 func pointerChangeNum(num *int){
-	*num = 5
+	*num = 5 //it derefrences address
 	fmt.Println("in pointerChangeNum:",*num)
 }
 
@@ -22,7 +22,7 @@ func main(){
 	fmt.Println("in main:",num) // num is not changed because we are passing a copy of num to changeNum function
 
     num1 :=2
-	fmt.Println("memory address of num1:",&num1)
+	fmt.Println("memory address of num1:",&num1) //gives address of num1
 	pointerChangeNum(&num1) // we are passing the address of num1 to pointerChangeNum function
-	fmt.Println("in main:",num1) // num1 is not changed because we are passing a copy of num1 to pointerChangeNum function
+	fmt.Println("in main:",num1) // num1 is changed because we are passing address of num1 to pointerChangeNum function
 }

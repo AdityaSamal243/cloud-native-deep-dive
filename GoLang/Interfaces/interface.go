@@ -3,7 +3,7 @@ package main
 // important
 //makes code scalable
 //for example : project to implement payment gateway 
-// 1st step : a strcyt ds is required
+// 1st step : a struct ds is required
 // 2nd step --  we need a payment gateway suppose razorpay integrate
 // 1 more struct is required 
 
@@ -23,7 +23,6 @@ type Payment struct{
 }
 
 // Open Close principle is violated
-//
 
 func (p *Payment) makePayment(amount float32){
         // razorpaypaymentGw := razorpay{}
