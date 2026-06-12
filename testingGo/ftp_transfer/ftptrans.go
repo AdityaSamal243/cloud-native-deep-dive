@@ -32,13 +32,13 @@ type FTPServer struct {
 
 func main() {
 	conn, err := net.Listen("tcp", "localhost:8000") //opens the tcp at port 8000
+	fmt.Println("server running on port 8000") 
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 	for {
 		c, err := conn.Accept() // waits for client connection
-		fmt.Println("server running on port 8000")
 		if err != nil {
 			fmt.Println(err)
 			continue
