@@ -15,10 +15,24 @@ func main() {
 		fmt.Println("Error connecting to server:", err)
 		return
 	}
-	defer conn.Close() // to handle the termination smoothly
+	done := make(chan struct{}) //channel struct type is used just for signal purpose
+
+	go func(){
+		io.Copy(os.Stdout,conn)
+		log.Println("done")
+		done <- struct{}{} // empty signal to main go routine
+	}()
    
-	go mustCopy(conn,os.Stdin)
-	mustCopy(os.Stdout,conn)
+	mustCopy(conn,os.Stdin)
+
+	tcpConn,ok := conn.(*net.TCPConn)
+	if ok{
+		tcpConn.CloseWrite()
+	}else{
+		conn.Close()
+	}
+	<- done 
+	//after signal reciewd from backgound it terminates
     
 }
 func mustCopy(dst io.Writer, src io.Reader){
