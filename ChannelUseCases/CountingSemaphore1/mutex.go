@@ -31,6 +31,5 @@ func main(){
 		go ServeCustomer(bar24x7,customerid)
 	}
 
-	for{time.Sleep(time.Second)}
 
 }
