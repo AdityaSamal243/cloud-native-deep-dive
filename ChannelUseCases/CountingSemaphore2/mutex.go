@@ -26,7 +26,7 @@ func main(){
 
 	for customerid := 0; ; customerid++{
 		time.Sleep(2*time.Second)
-		seat := <-bar24x7
+		seat := <-bar24x7  //after 10 seats it is locked 
 		go ServeCustomer(bar24x7,customerid,seat)
 	}
 
