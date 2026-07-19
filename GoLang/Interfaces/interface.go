@@ -24,17 +24,18 @@ type Payment struct{
 
 // Open Close principle is violated
 
-func (p *Payment) makePayment(amount float32){
+func (p *Payment) makePayment(amount float32){ //yeh ek general payment method hai but we need payment gateways to do payment
+	// we need a payment gateway here
         // razorpaypaymentGw := razorpay{}
 		// razorpaypaymentGw.pay(amount)
 
 		// stripepaymentgw := stripe{}
 		// stripepaymentgw.pay(amount)
 
-		p.gateway.pay(amount) 
+		p.gateway.pay(amount) //recieve from struct
 }
 
-type razorpay struct{}
+type razorpay struct{}  
 
 func (r razorpay) pay(amount float32){
 	//logic to make payment razorpay apis

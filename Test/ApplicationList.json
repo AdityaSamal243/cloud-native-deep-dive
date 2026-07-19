@@ -1,0 +1,204 @@
+{
+  "app": [
+    {
+      "application_id": "1",
+      "text": "Cube Repository"
+    },
+    {
+      "application_id": "2",
+      "text": "Analyzer"
+    },
+    {
+      "application_id": "3",
+      "text": "Designer"
+    },
+    {
+      "application_id": "4",
+      "text": "Administrator"
+    },
+    {
+      "application_id": "5",
+      "text": "Data Repository"
+    },
+    {
+      "application_id": "6",
+      "text": "Program Management"
+    },
+    {
+      "application_id": "7",
+      "text": "Sepsis Clock User"
+    },
+    {
+      "application_id": "8",
+      "text": "Sepsis Analytics"
+    },
+    {
+      "application_id": "9",
+      "text": "Administrator Connection"
+    },
+    {
+      "application_id": "10",
+      "text": "Home"
+    },
+    {
+      "application_id": "11",
+      "text": "History"
+    },
+    {
+      "application_id": "12",
+      "text": "Cognitive"
+    },
+    {
+      "application_id": "13",
+      "text": "Dashboard List Combo"
+    },
+    {
+      "application_id": "14",
+      "text": "Administrator/Connections"
+    },
+    {
+      "application_id": "15",
+      "text": "Administrator/Roles"
+    },
+    {
+      "application_id": "16",
+      "text": "Administrator/Users"
+    },
+    {
+      "application_id": "17",
+      "text": "Administrator/Log File"
+    },
+    {
+      "application_id": "18",
+      "text": "Administrator/Clear Cache"
+    },
+    {
+      "application_id": "23",
+      "text": "Administrator/Client"
+    },
+    {
+      "application_id": "27",
+      "text": "Dashboard/Floating Icon"
+    },
+    {
+      "application_id": "28",
+      "text": "Data Source"
+    },
+    {
+      "application_id": "29",
+      "text": "Adhoc Report"
+    },
+    {
+      "application_id": "32",
+      "text": "Data Source/Table"
+    },
+    {
+      "application_id": "33",
+      "text": "Data Source/View"
+    },
+    {
+      "application_id": "34",
+      "text": "Dashboard List show"
+    },
+    {
+      "application_id": "35",
+      "text": "Refresh"
+    },
+    {
+      "application_id": "36",
+      "text": "Reference/Create Table"
+    },
+    {
+      "application_id": "37",
+      "text": "Reference/Update Table"
+    },
+    {
+      "application_id": "38",
+      "text": "Document/Create Table"
+    },
+    {
+      "application_id": "39",
+      "text": "Document/Update Table"
+    },
+    {
+      "application_id": "40",
+      "text": "Cog Search"
+    },
+    {
+      "application_id": "41",
+      "text": "Adhoc/Scheduler"
+    },
+    {
+      "application_id": "42",
+      "text": "Adhoc/Widget"
+    },
+    {
+      "application_id": "43",
+      "text": "Adhoc/Filter Relation"
+    },
+    {
+      "application_id": "44",
+      "text": "Adhoc/Filter By KPIs"
+    },
+    {
+      "application_id": "45",
+      "text": "Administrator/Warehouse"
+    },
+    {
+      "application_id": "46",
+      "text": "Adhoc/Capture Screenshot"
+    },
+    {
+      "application_id": "47",
+      "text": "Adhoc/KPI Panel"
+    },
+    {
+      "application_id": "48",
+      "text": "Adhoc Landing Page"
+    },
+    {
+      "application_id": "AnGAppMyCases",
+      "text": "AnG App/My Cases"
+    },
+    {
+      "application_id": "AnGAppMyDashboards",
+      "text": "AnG App/My Dashboards"
+    },
+    {
+      "application_id": "AnGAppMyTasks",
+      "text": "AnG App/My Tasks"
+    },
+    {"application_id":"49","text":"Adhoc/Calculated column"},
+    {"application_id":"50","text":"Adhoc/Scheduled Reports Repository"},
+    {"application_id":"51","text":"Administrator/Storage Client"},
+    {
+      "application_id": "52",
+      "text": "Adhoc/Scheduler/SFTP"
+    },
+    {"application_id":"53","text":"Adhoc/GridInclusion"},
+    {"application_id":"54","text":"Upload Center"},	  
+    {"application_id":"55","text":"Log Viewer"},	  
+    {"application_id":"56","text":"SSO Config Setup"},
+    {"application_id":"57","text":"Administrator/Super User"}, 
+    {"application_id":"58","text":"Prediction Search"},
+    {"application_id":"chat_Box","text":"chat_Box"},
+    {
+    "application_id":"59",
+    "text":"Adhoc/TrendLine"
+  },
+  {"application_id":"60", "text":"Adhoc/Widget/Spanning Tree"},
+  {"application_id":"61", "text":"Adhoc/Widget/Prediction Line"},
+  {"application_id":"62","text":"Package/ExportPdf"},
+  {"application_id":"63","text":"Adhoc/Add Formula Button"},
+  {"application_id":"64", "text":"Adhoc/Cog Search"},
+  {"application_id":"65","text":"Administrator/Modules"},
+  {"application_id":"66", "text":"Administrator/Create Layout"},
+  {"application_id":"Designer Admin","text":"Designer Admin"},
+  {"application_id":"67","text":"Dashboard Viewer"},
+  {"application_id":"68","text":"Browse Dashboard"},
+  {"application_id":"69","text":"New Dashboard Designer"},
+  {"application_id":"70","text":"AI Playground"},
+  {"application_id":"71","text":"Microservice"},
+  {"application_id":"72","text":"Template Designer"}
+  ]
+}

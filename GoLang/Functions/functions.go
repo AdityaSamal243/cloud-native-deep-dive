@@ -17,8 +17,8 @@ func getLanguages() []string{
 // }
 
 // function is given as an argument to another function
-func processIt(fn func(a int)int){
-	fn(5);
+func processIt(fn func(a int)int)int {
+	return fn(5);
 }
 
 // now if i want to return a function from another function
@@ -43,10 +43,13 @@ func main(){
 	 fn:= func(a int)int{
 		return 2
 	 }
-	 processIt(fn)
+	 value := processIt(fn)
+	 fmt.Println("the value is =",value)
 
 	 fn1 :=processIt2()
-	 fn1(5)
+	 val :=fn1(5)
+	 fmt.Println("the value is=",val)
+
 
 
 
